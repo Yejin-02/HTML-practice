@@ -1,0 +1,46 @@
+#header {
+    height: 65px;
+    background-color: #F6CED8;
+}
+
+#header > div {
+    position: absolute;
+    top: 20px;
+}
+
+#ROUND {
+    left: 30px;
+}
+
+#RULE {
+    right: 90px;
+}
+
+#HINT {
+    right: 30px;
+}
+
+#RULE:hover, #HINT:hover {
+    color:#FFFFFF;
+}
+
+input {
+    height: 25px;
+    width: 180px;
+    margin-bottom: 5px;
+}
+
+#confirm {
+    color: black;
+    background-color: #F6CED8;
+    margin-top: 10px;
+    height: 40px;
+    width: 80px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#confirm:hover {
+    color: #FFFFFF;
+    box-shadow: 0 7px 9px 0 hsla(240,5%,41%,.2);
+}

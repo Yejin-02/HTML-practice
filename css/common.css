@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "IBM Plex Sans";
+    src: url('./IBMPlexSansKR-Medium.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: IBM Plex Sans;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color:#FBEFF2;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
