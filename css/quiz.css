@@ -1,11 +1,14 @@
 #header {
-    height: 65px;
+    position: absolute;
+    top: 0;
+    height: 48px;
+    width: 100vw;
     background-color: #F6CED8;
 }
 
 #header > div {
     position: absolute;
-    top: 20px;
+    top: 10px;
 }
 
 #ROUND {
